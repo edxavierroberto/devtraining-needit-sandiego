@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="asmt_signature">
+    <asmt_signature action="INSERT_OR_UPDATE">
+        <assertion><![CDATA[<p>Edxavier Roberto</p>]]></assertion>
+        <name>BRIGHTSOS</name>
+        <sys_class_name>asmt_signature</sys_class_name>
+        <sys_created_by>eroberto@brightsos.com</sys_created_by>
+        <sys_created_on>2021-12-13 16:33:32</sys_created_on>
+        <sys_id>d3f0b59bdbd40110d4b289584b9619b7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>BRIGHTSOS</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>asmt_signature_d3f0b59bdbd40110d4b289584b9619b7</sys_update_name>
+        <sys_updated_by>eroberto@brightsos.com</sys_updated_by>
+        <sys_updated_on>2021-12-13 16:33:32</sys_updated_on>
+        <type>checkbox</type>
+    </asmt_signature>
+    <sys_translated_text action="delete_multiple" query="documentkey=d3f0b59bdbd40110d4b289584b9619b7"/>
+</record_update>

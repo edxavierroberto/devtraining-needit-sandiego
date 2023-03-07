@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="asmt_metric_type">
+    <asmt_metric_type action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <allow_public>false</allow_public>
+        <allow_retake>false</allow_retake>
+        <anonymize>false</anonymize>
+        <business_rule/>
+        <chat_survey>false</chat_survey>
+        <condition table="asmt_metric_type">sys_id=14c0fd5bdbd40110d4b289584b961976^EQ<item endquery="false" field="sys_id" goto="false" newquery="false" operator="=" or="false" value="14c0fd5bdbd40110d4b289584b961976"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <default_filter/>
+        <delete_business_rule/>
+        <description>This survey is sent out after an incident is close</description>
+        <disable_ui_action/>
+        <display_all_filters>false</display_all_filters>
+        <display_field>name</display_field>
+        <duration>1970-01-15 00:00:00</duration>
+        <enable_ui_action/>
+        <end_note><![CDATA[<p>Thanks for your response</p>]]></end_note>
+        <enforce_condition>false</enforce_condition>
+        <evaluation_method>survey</evaluation_method>
+        <filter_condition/>
+        <filter_table/>
+        <introduction><![CDATA[<p>Welcome to the BRIGHTSOS Survey</p>]]></introduction>
+        <job/>
+        <live_feed>false</live_feed>
+        <name>BrightSOS Incident Survey</name>
+        <not_show_intro_note>false</not_show_intro_note>
+        <notify_if_overdue>false</notify_if_overdue>
+        <notify_user>true</notify_user>
+        <one_click_survey>true</one_click_survey>
+        <overdue_notify_user/>
+        <portal_pagination>none</portal_pagination>
+        <publish_state>draft</publish_state>
+        <roles>survey_admin,survey_reader</roles>
+        <sample_metric/>
+        <scale_factor>10</scale_factor>
+        <schedule_period>0</schedule_period>
+        <schedule_type>on_demand</schedule_type>
+        <scoring_type>percent</scoring_type>
+        <signature display_value="BRIGHTSOS">d3f0b59bdbd40110d4b289584b9619b7</signature>
+        <source_table/>
+        <survey_owners>6816f79cc0a8016401c5a33be04be441</survey_owners>
+        <sys_class_name>asmt_metric_type</sys_class_name>
+        <sys_created_by>eroberto@brightsos.com</sys_created_by>
+        <sys_created_on>2021-12-13 16:45:03</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>14c0fd5bdbd40110d4b289584b961976</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>BrightSOS Incident Survey</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>asmt_metric_type_14c0fd5bdbd40110d4b289584b961976</sys_update_name>
+        <sys_updated_by>eroberto@brightsos.com</sys_updated_by>
+        <sys_updated_on>2021-12-13 16:55:08</sys_updated_on>
+        <table>asmt_metric_type</table>
+        <url/>
+        <user_field/>
+        <user_field_business_rule/>
+    </asmt_metric_type>
+    <sys_translated_text action="delete_multiple" query="documentkey=14c0fd5bdbd40110d4b289584b961976"/>
+</record_update>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="wf_workflow_version">
+    <wf_workflow_version action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <activity_stages>{}</activity_stages>
+        <after_business_rules>false</after_business_rules>
+        <checked_out>2020-11-24 06:00:12</checked_out>
+        <checked_out_by display_value="Edxavier Roberto">6816f79cc0a8016401c5a33be04be441</checked_out_by>
+        <column_renderer display_value="Workflow-driven">a56213111b030100adca1e094f0713ac</column_renderer>
+        <condition table="x_58872_needit_needit">state=14^EQ<item display_value="Awaiting Approval" endquery="false" field="state" goto="false" newquery="false" operator="=" or="false" value="14"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <condition_type>run_match</condition_type>
+        <description>Request approval from Requested for's manager and set state value on reject or approve.</description>
+        <expected_sequences>53f2384c0f0232000d030dbce1050eaa,dff2384c0f0232000d030dbce1050eab,abf23c8c0f0232000d030dbce1050e2f,38337c8c0f0232000d030dbce1050ebe,53f2384c0f0232000d030dbce1050eab</expected_sequences>
+        <expected_time>1970-01-01 14:00:00</expected_time>
+        <expected_time_type/>
+        <full_sequences>53f2384c0f0232000d030dbce1050eaa,dff2384c0f0232000d030dbce1050eab,abf23c8c0f0232000d030dbce1050e2f,38337c8c0f0232000d030dbce1050ebe,53f2384c0f0232000d030dbce1050eab|53f2384c0f0232000d030dbce1050eaa,dff2384c0f0232000d030dbce1050eab,5ff2384c0f0232000d030dbce1050ea7,53f2384c0f0232000d030dbce1050eab</full_sequences>
+        <journal/>
+        <max_activity_count>100</max_activity_count>
+        <name>NeedIt Approval</name>
+        <not_cacheable>false</not_cacheable>
+        <on_cancel><![CDATA[// This script executes if the workflow is cancelled.// The global variable context_sys_id contains the sys_id of the cancelled workflow context.]]></on_cancel>
+        <order>100</order>
+        <pin_type>set_by_activity</pin_type>
+        <published>true</published>
+        <relative_duration/>
+        <requires_ert>true</requires_ert>
+        <run_multiple>false</run_multiple>
+        <schedule/>
+        <stage_field/>
+        <stage_order>computed</stage_order>
+        <start display_value="">53f2384c0f0232000d030dbce1050eaa</start>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-04-05 19:51:03</sys_created_on>
+        <sys_id>5ff2384c0f0232000d030dbce1050ea5</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-04-05 19:58:46</sys_updated_on>
+        <table>x_58872_needit_needit</table>
+        <timezone/>
+        <validated>false</validated>
+        <workflow display_value="NeedIt Approval">37fe0cb74ff93200cb281b818110c7a5</workflow>
+    </wf_workflow_version>
+    <wf_workflow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <description>Request approval from Requested for's manager and set state value on reject or approve.</description>
+        <name>NeedIt Approval</name>
+        <preview/>
+        <sys_class_name>wf_workflow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-04-04 22:35:18</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>37fe0cb74ff93200cb281b818110c7a5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>NeedIt Approval</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>wf_workflow_37fe0cb74ff93200cb281b818110c7a5</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-04-04 22:35:18</sys_updated_on>
+        <table>x_58872_needit_needit</table>
+        <template>false</template>
+        <vars/>
+    </wf_workflow>
+    <wf_estimated_runtime_config action="INSERT_OR_UPDATE">
+        <estimated_run_time/>
+        <no_of_data_points>1</no_of_data_points>
+        <percentage_threshold_ert>20</percentage_threshold_ert>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-05-14 05:00:19</sys_created_on>
+        <sys_id>e4e752a22f4830101abd56e62799b628</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-05-14 05:00:19</sys_updated_on>
+        <workflow_version display_value="NeedIt Approval">5ff2384c0f0232000d030dbce1050ea5</workflow_version>
+    </wf_estimated_runtime_config>
+    <wf_workflow_version action="update_multiple" query="workflow=37fe0cb74ff93200cb281b818110c7a5^sys_id!=5ff2384c0f0232000d030dbce1050ea5">
+        <published>false</published>
+    </wf_workflow_version>
+</record_update>

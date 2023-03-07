@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="domain_master=contact_attempt" db_object_id="cf6fb4d72f1030101abd56e62799b605" label="On-Call Escalation Notification" max_length="40" name="on_call_escalation_comm" type="collection">
+        <element label="Phone number" max_length="40" name="phone_number" type="ph_number"/>
+    </element>
+</database>
